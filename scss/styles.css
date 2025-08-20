@@ -1,0 +1,144 @@
+/*-- scss:defaults --*/
+
+$link-color: #B51F25;
+
+/*-- scss:rules --*/
+
+.navbar-title {
+    font-weight: bold;
+    color: $link-color;
+    font-size: 150%;
+}
+
+
+.details {
+    font-size: 90%
+}
+
+a {
+    color: $link-color;
+    font-weight: bold;
+}
+
+/* NAVBAR AS PSICOSTAT */
+
+.nav-link {
+    font-size: 1rem;
+    color: #000;
+    transition: all 0.2s ease-in-out; /* Smooth transition for color and transform */
+}
+
+.nav-link.active {
+    background-color: $link-color;
+    color: #fff!important;
+    border-radius: 50px;
+    transition: all 0.2s ease-in-out; /* Smooth transition for active state */
+}
+
+.nav-link:active {
+    transform: scale(0.95); /* Shrinks slightly on press */
+}
+
+.nav-link:hover {
+    color: $link-color;
+    transform: translateY(-2px); /* Slight hover lift effect */
+    transition: all 0.2s ease-in-out; /* Smooth transition for hover */
+}
+
+body::after {
+    content: "";
+    background: url('https://raw.githubusercontent.com/psicostat/visual-identity/master/logo/psicostat-logo.png');
+    opacity: 0.05;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Fix the background */
+}
+
+.center {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+.card {
+    width: 200px; /* Adjust the width of the card */
+    margin: 10px; /* Reduce spacing between cards */
+    font-size: 14px; /* Reduce font size */
+}
+
+.card img {
+    width: 100%; /* Ensure the image fits within the card */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: round the corners */
+}
+
+.card-title {
+    font-size: 16px; /* Adjust title size */
+    margin-bottom: 5px; /* Reduce space below the title */
+}
+
+.card-text {
+    font-size: 12px; /* Adjust body text size */
+    line-height: 1.4; /* Adjust line spacing */
+}
+
+.imgcard-ct {
+    width: 200px; /* You can set the dimensions to whatever you want */
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
+    margin-bottom: 2rem; /* Adjust the top margin as needed */
+}
+
+.imgcard-memb {
+    width: 250px; /* You can set the dimensions to whatever you want */
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto; /* Centers the image */
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
+    margin-bottom: 2rem; /* Adjust the top margin as needed */
+}
+
+.imgcard-hon {
+    width: 200px; /* You can set the dimensions to whatever you want */
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto; /* Centers the image */
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
+    margin-bottom: 2rem; /* Adjust the top margin as needed */
+}
+
+figcaption {
+    font-size: 15px;
+    text-align: center;
+}
+
+.card {
+    transition: transform 0.2s ease; /* Add transition for smooth effect */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Enlarge by 5% on hover */
+  }
+
+h5 {
+    text-align: center;
+}
+
+.card-subtitle {
+    text-align: center;
+}
+
+#TOC .nav-link.active {
+    background-color: $link-color;
+    color: #fff!important;
+    border-radius: 50px;
+    transition: all 0.2s ease-in-out; /* Smooth transition for active state */
+}

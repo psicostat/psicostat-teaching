@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  title: "psicostat-teaching"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: teaching.qmd
+        text: Teaching activity
+    page-footer:
+     background: light # or `dark`
+     left: "**PSICOSTAT Research Group**"
+     right: "[{{< fa brands x-twitter >}}](https://x.com/psicostat) [{{< fa brands github >}}](https://github.com/psicostat) [{{< fa envelope >}}](mailto:psicostat.dpss@unipd.it)"
+
+format:
+  html:
+    theme: 
+      - scss/styles.scss
+    toc: true
+
+
+

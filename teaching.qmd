@@ -1,0 +1,28 @@
+---
+title: "Teaching activities by Psicostat"
+author: "[Psicostat Core Team](https://psicostat.dpss.psy.unipd.it/pages/people.html)"
+format: 
+    html:
+      theme:
+          - scss/home.scss
+      toc: true
+      toc-location: left
+---
+
+# Institutional Activities
+
+Qui metterei i nostri corsi per le varie università (possiamo mettere i materiali dei corsi?)
+
+# Specialized Courses 
+
+## Statistics in Pratice
+
+* Introduction to Item Response Theory with `R` 
+
+    This mini course provides an overview of Item Response Theory models for dichotomous responses. [Course materials](https://ottaviae.github.io/IRTintro/)
+
+## Learn by doing
+
+* `quarto`
+
+    This course has been provided within the summer school organized by [ARCA](https://www.dpss.unipd.it/applied-research-courses-academy-arca). [Course materials](https://arca-dpss.github.io/quarto-school/) 

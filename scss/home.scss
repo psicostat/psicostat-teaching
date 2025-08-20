@@ -1,0 +1,16 @@
+/*-- scss:defaults --*/
+
+$link-color: #B51F25;
+
+/*-- scss:rules --*/
+
+.centered-text {
+    margin-top: 50%;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-style: oblique;
+    display: flex;
+    align-items: center;
+    font-size: 120%;
+}
