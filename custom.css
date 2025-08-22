@@ -7,13 +7,15 @@
   grid-template-columns: repeat(3, 1fr); /* always 3 cards per row */
   gap: 15px; /* space between cards */
 }
+
 @media (max-width: 768px) {
   .list.grid {
     grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
   }
 }
+
 .badge {
-  color: #999999 !important;
+  color: black !important;
   font-weight: normal !important;
 }
 
@@ -29,4 +31,13 @@
   width: 100%;
 }
 
-  
+.title-link {
+  text-decoration: none;
+  color: #760000;
+  font-weight: bold;
+  text-align: center;
+}
+
+.category-link {
+  text-decoration: none;
+}
