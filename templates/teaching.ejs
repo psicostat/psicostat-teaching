@@ -1,17 +1,22 @@
 ```{=html}
 <div class="list grid">
   <% for(const item of items) { %>
-  <a href="<%= item.link %>" target="_blank" class="quarto-grid-link" <%= metadataAttrs(item) %>>
-    <div class="card h-100">
+    <div class="card h-100" <%= metadataAttrs(item) %>> 
       <% if (item.image) { %>
-      <img loading="lazy" src="<%= item.image %>" class="card-img-top" alt="">
+      <a href="<%= item.link %>">
+        <img loading="lazy" src="<%= item.image %>" class="card-img-top" alt="">
+      </a>
       <% } %>
       <div class="card-body post-contents d-flex flex-column">
-        <h5 class="card-title listing-title no-anchor"><%= item.title %></h5>
+        <a href="<%= item.link %>" class="title-link">
+          <h5 class="card-title listing-title no-anchor"><%= item.title %></h5>
+        </a>
         <% if (item.categories) { %>
         <div class="listing-categories mb-2">
           <% for (const cat of item.categories) { %>
-            <span class="badge bg-light text-dark border me-1"><%= cat %></span>
+            <a class="category-link badge bg-light text-dark border me-1" href="#category=<%= cat %>">
+              <%= cat %>
+            </a>
           <% } %>
         </div>
         <% } %>
@@ -25,7 +30,6 @@
         </div>
       </div>
     </div>
-  </a>
   <% } %>
 </div>
 ```
