@@ -6,7 +6,7 @@ website:
   title: "Psicostat teachings and workshops"
   favicon: assets/faviconpsicostat.png
   navbar:
-    logo: assets/psicostatLogo.png
+    logo: assets/simplelogopsicostat.png
 
 format:
    html:
