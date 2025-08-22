@@ -1,0 +1,21 @@
+.navbar {
+  background-color: #760000 !important;
+}
+
+.list.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* always 3 cards per row */
+  gap: 15px; /* space between cards */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 150px;
+  width: 100%;
+}

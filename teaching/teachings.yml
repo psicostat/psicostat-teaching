@@ -1,0 +1,36 @@
+- title: "Generalized Linear Models"
+  author: Filippo Gambarota
+  categories: [GLM, R]
+  description: "some description about GLM for phd etc."
+  image: teaching/images/glm.png
+  link: "https://stat-teaching.github.io/GLMphd/"
+- title: "Intro to Item Response Theory with R"
+  author: Ottavia Epifania
+  categories: [R, IRT, Psychometrics]
+  description: "some description about short IRT course for more brilliant psychometrics etc."
+  image: teaching/images/irt.png
+  link: "https://ottaviae.github.io/IRTintro/"
+- title: "Basics of Python for Data Science"
+  author: Enrico Toffalini
+  categories: [Python, Programming]
+  description: "some description about python course for data science etc."
+  image: teaching/images/python.png
+  link: "https://enricotoffalini.github.io/Basics-Python/"
+- title: "Generalized Linear Models"
+  author: Filippo Gambarota
+  categories: [GLM, R]
+  description: "some description about GLM for phd etc."
+  image: teaching/images/glm.png
+  link: "https://stat-teaching.github.io/GLMphd/"
+- title: "Intro to Item Response Theory with R"
+  author: Ottavia Epifania
+  categories: [R, IRT, Psychometrics]
+  description: "some description about short IRT course for more brilliant psychometrics etc."
+  image: teaching/images/irt.png
+  link: "https://ottaviae.github.io/IRTintro/"
+- title: "Basics of Python for Data Science"
+  author: Enrico Toffalini
+  categories: [Python, Programming]
+  description: "some description about python course for data science etc."
+  image: teaching/images/python.png
+  link: "https://enricotoffalini.github.io/Basics-Python/"

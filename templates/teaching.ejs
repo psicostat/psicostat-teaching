@@ -1,0 +1,31 @@
+```{=html}
+<div class="list grid">
+  <% for(const item of items) { %>
+  <a href="<%= item.link %>" class="quarto-grid-link" <%= metadataAttrs(item) %>>
+    <div class="card h-100">
+      <% if (item.image) { %>
+      <img loading="lazy" src="<%= item.image %>" class="card-img-top" alt="">
+      <% } %>
+      <div class="card-body post-contents d-flex flex-column">
+        <h5 class="card-title listing-title no-anchor"><%= item.title %></h5>
+        <% if (item.categories) { %>
+        <div class="listing-categories mb-2">
+          <% for (const cat of item.categories) { %>
+            <span class="badge bg-light text-dark border me-1"><%= cat %></span>
+          <% } %>
+        </div>
+        <% } %>
+        <% if (item.description) { %>
+        <p class="card-text listing-description"><%= item.description %></p>
+        <% } %>
+        <div class="mt-auto">
+          <div class="listing-author text-muted small">
+            <%= item.author %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+  <% } %>
+</div>
+```

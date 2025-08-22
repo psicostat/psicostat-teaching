@@ -1,28 +1,12 @@
 ---
-format: 
-    html:
-      theme:
-          - scss/home.scss
-include-in-header: files/header.html
-about:
-  template: jolla
-  links:
-    - icon: twitter
-      text: Twitter
-      href: https://x.com/psicostat
-    - icon: github
-      text: Github
-      href: https://github.com/psicostat
-    - icon: envelope
-      text: Email
-      href: mailto:psicostat.dpss@unipd.it
+title: "Teachings & Workshops"
+listing:
+  contents: teaching/teachings.yml
+  type: grid
+  sort: "date desc"
+  fields: [title, author, image, categories, description]
+  template: templates/teaching.ejs
+  sort-ui: true
+  filter-ui: true
+  page-size: 10
 ---
-
-
-
-:::{.centered-text}
-We are an interdisciplinary research group interested in Psychology and Statistics, working in areas related to quantitative psychology, psychometrics, psychological testing and statistics. </br> Our goal is to promote the connection between the two fields in order to benefit the progress of scientific research.
-:::
- 
-
-Qui forse parlerei delle altre attività del gruppo (handzones, meetings, publications - in breve) e metterei il link alla pagina di [Psicostat](https://psicostat.dpss.psy.unipd.it/)
