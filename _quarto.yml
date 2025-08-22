@@ -4,10 +4,10 @@ project:
 
 website:
   title: "Psicostat teachings and workshops"
+  favicon: assets/faviconpsicostat.png
   navbar:
-    left:
-      - href: index.qmd
-        text: home
+    logo: assets/psicostatLogo.png
+
 format:
    html:
       css: custom.css
