@@ -40,9 +40,15 @@
   categories: [R, modeling]
   image: teaching/images/7.png
   link: https://mar-cald.github.io/eam-workshop/eam-home.html
-- title: "RMarkdown: Analisi riproducibili, presentazioni, report... e molto altro"
-  author: AMBRA PERUGINI
+- title: "RMarkdown. Analisi riproducibili, presentazioni, report... e molto altro"
+  author: .
   description: Competenze base di RMarkdown e Quarto, creare documenti PDF, HTML e di presentazione dal codice
   categories: [R, Quarto, markdown]
   image: teaching/images/8.png
-  link: https://ambraperugini.github.io/Quarto_ARCA/
+  link: 
+- title: "Evaluation of outliers and influential cases in a multivariate perspective"
+  author: GIANMARCO ALTOÈ
+  description: Outliers (i.e., single observations that are distant from the others based on the variables of interest) and influential cases (i.e., single observations with a huge impact on the estimated parameters of a model) are ubiquitous in statistical analyses in psychology. In this course, based on practical examples, we will see how to define, identify, and handle univariate and multivariate outliers as well as influential cases. On a practical level, various statistical methods will be presented using the R software. These methods can easily be extended to other statistical software as well.
+  categories: [Statistics, outliers, influential cases, R]
+  image: teaching/images/0.png
+  link: 
