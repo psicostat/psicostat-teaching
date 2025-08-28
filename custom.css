@@ -41,3 +41,7 @@
 .category-link {
   text-decoration: none;
 }
+
+.card-text {
+  font-size: 10pt;
+}
