@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  pre-render: 
+    - quarto-scripts/create-teaching-yml.r
 
 website:
   title: "Psicostat teachings and workshops"
