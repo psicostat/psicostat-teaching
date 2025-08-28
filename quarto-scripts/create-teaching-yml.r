@@ -21,7 +21,8 @@ teaching <- drive_dowload_read(info$teaching)
 
 teaching$Docente = toupper(teaching$Docente)
 
-template <- '- title: "%s"\n  author: %s\n  description: %s\n  categories: [%s]\n  image: teaching/images/%s\n  link: %s'
+template <- '- title: "%s"\n  author: %s\n  description: %s\n  categories: [%s]\n  image: teaching/images/%s\n  link: %s\n  lang: %s'
+
 
 image <- list.files("teaching/images/")
 image_to_insert = vapply(
@@ -36,14 +37,18 @@ image_to_insert = vapply(
 
 tag <- ifelse(is.na(teaching$tag), "TBD", teaching$tag)
 link <- ifelse(is.na(teaching$Link), "", teaching$Link)
+flag <- ifelse(teaching$Lingua == "Inglese", flag("gb"), flag("it"))
+description <- paste(teaching$description, flag)
+lang <- ifelse(teaching$Lingua == "Inglese", "english", "italian")
 
 sprintf(
   template,
   teaching$Titolo,
   teaching$Docente,
-  teaching$description,
+  description,
   tag,
   image_to_insert,
-  link
+  link,
+  lang
 ) |>
   writeLines(con = "teaching/teachings.yml")

@@ -4,11 +4,18 @@ listing:
   contents: teaching/teachings.yml
   type: grid
   sort: "date desc"
-  fields: [title, author, image, categories, description]
+  fields: [title, author, image, categories, description, lang]
   template: templates/teaching.ejs
   sort-ui: true
   filter-ui: true
   page-size: 10
   categories: true
+engine: knitr
 ---
 
+```{=html}
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css"
+/>
+```

@@ -38,3 +38,7 @@ drive_dowload_read <- function(x) {
   saveRDS(xlsx, x$local)
   readRDS(x$local)
 }
+
+flag <- function(x){
+  sprintf('<span class="fi fi-%s"></span>', x)
+}

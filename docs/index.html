@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-991b1886d3c685c7aa2b62b80640c7af.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a14e3238c51140e99ccc48519b6ed9ce.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,9 +80,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-categories','listing-description',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-author','listing-image','listing-categories','listing-description','listing-lang',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-description","listing-categories","listing-image","listing-link"],
+      searchColumns: ["listing-title","listing-author","listing-description","listing-categories","listing-image","listing-link","listing-lang"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -182,6 +182,7 @@ window.Quarto = {
 </header>
 
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
 
 
 
@@ -207,6 +208,9 @@ window.Quarto = {
       </option>
       <option value="listing-image" data-direction="asc">
       </option>
+      <option value="listing-lang" data-direction="asc">
+        lang
+      </option>
     </select>
   </div>
     <div class="input-group input-group-sm quarto-listing-filter">
@@ -227,7 +231,7 @@ window.Quarto = {
           <h5 class="card-title listing-title no-anchor">Say “when”: IRT based algorithms to shorten tests</h5>
         </a>
         
-        <p class="card-text listing-description">Discover algorithms in item response theory to design shorter, adaptive, and reliable tests</p>
+        <p class="card-text listing-description">Discover algorithms in item response theory to design shorter, adaptive, and reliable tests <span class="fi fi-gb"></span></p>
         
         
         <div class="listing-categories mb-2">
@@ -269,7 +273,7 @@ window.Quarto = {
           <h5 class="card-title listing-title no-anchor">Basics of Python for Data Science</h5>
         </a>
         
-        <p class="card-text listing-description">Introductory Python for data science, hands-on basics, tools setup, core syntax, key libraries</p>
+        <p class="card-text listing-description">Introductory Python for data science, hands-on basics, tools setup, core syntax, key libraries <span class="fi fi-gb"></span></p>
         
         
         <div class="listing-categories mb-2">
@@ -303,7 +307,7 @@ window.Quarto = {
           <h5 class="card-title listing-title no-anchor">Generalized Linear Models</h5>
         </a>
         
-        <p class="card-text listing-description">PhD-level Generalized Linear Models course, R-package materials, labs, slides for applied statistical modeling</p>
+        <p class="card-text listing-description">PhD-level Generalized Linear Models course, R-package materials, labs, slides for applied statistical modeling <span class="fi fi-gb"></span></p>
         
         
         <div class="listing-categories mb-2">
@@ -341,7 +345,7 @@ window.Quarto = {
           <h5 class="card-title listing-title no-anchor">Structural Equation Modeling</h5>
         </a>
         
-        <p class="card-text listing-description">PhD-level Structural Equation Modeling, theory, estimation, and applied modeling with observed and latent variables</p>
+        <p class="card-text listing-description">PhD-level Structural Equation Modeling, theory, estimation, and applied modeling with observed and latent variables <span class="fi fi-gb"></span></p>
         
         
         <div class="listing-categories mb-2">
@@ -383,7 +387,7 @@ window.Quarto = {
           <h5 class="card-title listing-title no-anchor">Basics of R for Data Science</h5>
         </a>
         
-        <p class="card-text listing-description">Foundational R programming for PhD students, data structures, control flow, and core statistical tools</p>
+        <p class="card-text listing-description">Foundational R programming for PhD students, data structures, control flow, and core statistical tools <span class="fi fi-gb"></span></p>
         
         
         <div class="listing-categories mb-2">
@@ -417,7 +421,7 @@ window.Quarto = {
           <h5 class="card-title listing-title no-anchor">Introduzione a R</h5>
         </a>
         
-        <p class="card-text listing-description">Basi di R, logica della programmazione, strutture di dati, e come scrivere codice</p>
+        <p class="card-text listing-description">Basi di R, logica della programmazione, strutture di dati, e come scrivere codice <span class="fi fi-it"></span></p>
         
         
         <div class="listing-categories mb-2">
@@ -451,7 +455,7 @@ window.Quarto = {
           <h5 class="card-title listing-title no-anchor">A practical introduction to evidence accumulation models</h5>
         </a>
         
-        <p class="card-text listing-description">Evidence-accumulation models, modeling perceptual judgments with both response times and choice data</p>
+        <p class="card-text listing-description">Evidence-accumulation models, modeling perceptual judgments with both response times and choice data <span class="fi fi-gb"></span></p>
         
         
         <div class="listing-categories mb-2">
@@ -485,7 +489,7 @@ window.Quarto = {
           <h5 class="card-title listing-title no-anchor">RMarkdown. Analisi riproducibili, presentazioni, report... e molto altro</h5>
         </a>
         
-        <p class="card-text listing-description">Competenze base di RMarkdown e Quarto, creare documenti PDF, HTML e di presentazione dal codice</p>
+        <p class="card-text listing-description">Competenze base di RMarkdown e Quarto, creare documenti PDF, HTML e di presentazione dal codice <span class="fi fi-it"></span></p>
         
         
         <div class="listing-categories mb-2">
@@ -506,7 +510,7 @@ window.Quarto = {
         
         <div class="mt-auto">
           <div class="listing-author text-muted small">
-            .
+            NA
           </div>
         </div>
       </div>
@@ -523,7 +527,7 @@ window.Quarto = {
           <h5 class="card-title listing-title no-anchor">Evaluation of outliers and influential cases in a multivariate perspective</h5>
         </a>
         
-        <p class="card-text listing-description">Outliers (i.e., single observations that are distant from the others based on the variables of interest) and influential cases (i.e., single observations with a huge impact on the estimated parameters of a model) are ubiquitous in statistical analyses in psychology. In this course, based on practical examples, we will see how to define, identify, and handle univariate and multivariate outliers as well as influential cases. On a practical level, various statistical methods will be presented using the R software. These methods can easily be extended to other statistical software as well.</p>
+        <p class="card-text listing-description">Outliers (i.e., single observations that are distant from the others based on the variables of interest) and influential cases (i.e., single observations with a huge impact on the estimated parameters of a model) are ubiquitous in statistical analyses in psychology. In this course, based on practical examples, we will see how to define, identify, and handle univariate and multivariate outliers as well as influential cases. On a practical level, various statistical methods will be presented using the R software. These methods can easily be extended to other statistical software as well. <span class="fi fi-gb"></span></p>
         
         
         <div class="listing-categories mb-2">

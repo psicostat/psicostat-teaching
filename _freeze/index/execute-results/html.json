@@ -1,0 +1,15 @@
+{
+  "hash": "bee6141ce5bfff1ca93396a291dcb975",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"<a href='https://psicostat.github.io/psicostat-teaching/'>Teachings & Workshops</a>\"\nlisting:\n  contents: teaching/teachings.yml\n  type: grid\n  sort: \"date desc\"\n  fields: [title, author, image, categories, description, lang]\n  template: templates/teaching.ejs\n  sort-ui: true\n  filter-ui: true\n  page-size: 10\n  categories: true\nengine: knitr\n---\n\n```{=html}\n<link\n  rel=\"stylesheet\"\n  href=\"https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css\"\n/>\n```\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

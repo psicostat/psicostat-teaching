@@ -1,54 +1,63 @@
 - title: "Say “when”: IRT based algorithms to shorten tests"
   author: OTTAVIA EPIFANIA
-  description: Discover algorithms in item response theory to design shorter, adaptive, and reliable tests
+  description: Discover algorithms in item response theory to design shorter, adaptive, and reliable tests <span class="fi fi-gb"></span>
   categories: [R, IRT, psychometrics, modeling]
   image: teaching/images/1.png
   link: https://ottaviae.github.io/beyond-summer-school/algorithms/algortithms.html#/title-slide
+  lang: english
 - title: "Basics of Python for Data Science"
   author: ENRICO TOFFALINI
-  description: Introductory Python for data science, hands-on basics, tools setup, core syntax, key libraries
+  description: Introductory Python for data science, hands-on basics, tools setup, core syntax, key libraries <span class="fi fi-gb"></span>
   categories: [Python, programming]
   image: teaching/images/2.png
   link: https://enricotoffalini.github.io/Basics-Python/
+  lang: english
 - title: "Generalized Linear Models"
   author: FILIPPO GAMBAROTA
-  description: PhD-level Generalized Linear Models course, R-package materials, labs, slides for applied statistical modeling
+  description: PhD-level Generalized Linear Models course, R-package materials, labs, slides for applied statistical modeling <span class="fi fi-gb"></span>
   categories: [R, GLM, modeling]
   image: teaching/images/3.png
   link: https://stat-teaching.github.io/GLMphd/
+  lang: english
 - title: "Structural Equation Modeling"
   author: TOMMASO FERACO
-  description: PhD-level Structural Equation Modeling, theory, estimation, and applied modeling with observed and latent variables
+  description: PhD-level Structural Equation Modeling, theory, estimation, and applied modeling with observed and latent variables <span class="fi fi-gb"></span>
   categories: [R, SEM, psychometrics, modeling]
   image: teaching/images/4.png
   link: 
+  lang: english
 - title: "Basics of R for Data Science"
   author: ENRICO TOFFALINI
-  description: Foundational R programming for PhD students, data structures, control flow, and core statistical tools
+  description: Foundational R programming for PhD students, data structures, control flow, and core statistical tools <span class="fi fi-gb"></span>
   categories: [R, programming]
   image: teaching/images/5.png
   link: https://enricotoffalini.github.io/Basics-R/
+  lang: english
 - title: "Introduzione a R"
   author: MARGHERITA CALDERAN
-  description: Basi di R, logica della programmazione, strutture di dati, e come scrivere codice
+  description: Basi di R, logica della programmazione, strutture di dati, e come scrivere codice <span class="fi fi-it"></span>
   categories: [R, programming]
   image: teaching/images/6.png
   link: https://arca-dpss.github.io/course-R-2425/
+  lang: italian
 - title: "A practical introduction to evidence accumulation models"
   author: MARGHERITA CALDERAN
-  description: Evidence-accumulation models, modeling perceptual judgments with both response times and choice data
+  description: Evidence-accumulation models, modeling perceptual judgments with both response times and choice data <span class="fi fi-gb"></span>
   categories: [R, modeling]
   image: teaching/images/7.png
   link: https://mar-cald.github.io/eam-workshop/eam-home.html
+  lang: english
 - title: "RMarkdown. Analisi riproducibili, presentazioni, report... e molto altro"
-  author: .
-  description: Competenze base di RMarkdown e Quarto, creare documenti PDF, HTML e di presentazione dal codice
+  author: NA
+  description: Competenze base di RMarkdown e Quarto, creare documenti PDF, HTML e di presentazione dal codice <span class="fi fi-it"></span>
   categories: [R, Quarto, markdown]
   image: teaching/images/8.png
   link: 
+  lang: italian
 - title: "Evaluation of outliers and influential cases in a multivariate perspective"
   author: GIANMARCO ALTOÈ
-  description: Outliers (i.e., single observations that are distant from the others based on the variables of interest) and influential cases (i.e., single observations with a huge impact on the estimated parameters of a model) are ubiquitous in statistical analyses in psychology. In this course, based on practical examples, we will see how to define, identify, and handle univariate and multivariate outliers as well as influential cases. On a practical level, various statistical methods will be presented using the R software. These methods can easily be extended to other statistical software as well.
+  description: Outliers (i.e., single observations that are distant from the others based on the variables of interest) and influential cases (i.e., single observations with a huge impact on the estimated parameters of a model) are ubiquitous in statistical analyses in psychology. In this course, based on practical examples, we will see how to define, identify, and handle univariate and multivariate outliers as well as influential cases. On a practical level, various statistical methods will be presented using the R software. These methods can easily be extended to other statistical software as well. <span class="fi fi-gb"></span>
   categories: [Statistics, outliers, influential cases, R]
   image: teaching/images/0.png
   link: 
+  lang: english
