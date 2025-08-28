@@ -1,6 +1,6 @@
 # check if running the script --------------------------------------------
 
-if (!nzchar(Sys.getenv("QUARTO_PROJECT_RENDER_ALL"))) {
+if (Sys.getenv("QUARTO_PROJECT_RENDER_ALL") == "0") {
   quit()
 }
 
