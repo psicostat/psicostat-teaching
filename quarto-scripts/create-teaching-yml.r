@@ -19,7 +19,9 @@ options(gargle_oauth_email = Sys.getenv("GMAIL"), googledrive_quiet = TRUE)
 
 teaching <- drive_dowload_read(info$teaching)
 
-template <- '- title: "%s"\n  author: %s\n  categories: [%s]\n  description: %s\n  image: teaching/images/%s\n  link: %s'
+teaching$Docente = toupper(teaching$Docente)
+
+template <- '- title: "%s"\n  author: %s\n  description: %s\n  categories: [%s]\n  image: teaching/images/%s\n  link: %s'
 
 image <- list.files("teaching/images/")
 image_to_insert = vapply(
@@ -39,8 +41,8 @@ sprintf(
   template,
   teaching$Titolo,
   teaching$Docente,
-  tag,
   teaching$description,
+  tag,
   image_to_insert,
   link
 ) |>

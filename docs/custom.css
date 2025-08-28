@@ -45,3 +45,7 @@
 .card-text {
   font-size: 10pt;
 }
+
+.listing-author {
+  font-family: Courier New, Courier, monospace;
+}

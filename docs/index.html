@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-author','listing-image','listing-categories','listing-description',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-categories","listing-description","listing-image","listing-link"],
+      searchColumns: ["listing-title","listing-author","listing-description","listing-categories","listing-image","listing-link"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -199,11 +199,11 @@ window.Quarto = {
       <option value="listing-author" data-direction="asc">
         Author
       </option>
-      <option value="listing-categories" data-direction="asc">
-        Categories
-      </option>
       <option value="listing-description" data-direction="asc">
         Description
+      </option>
+      <option value="listing-categories" data-direction="asc">
+        Categories
       </option>
       <option value="listing-image" data-direction="asc">
       </option>
@@ -227,6 +227,9 @@ window.Quarto = {
           <h5 class="card-title listing-title no-anchor">Say “when”: IRT based algorithms to shorten tests</h5>
         </a>
         
+        <p class="card-text listing-description">Discover algorithms in item response theory to design shorter, adaptive, and reliable tests</p>
+        
+        
         <div class="listing-categories mb-2">
           
             <a class="category-link badge bg-light text-dark border me-1" href="#category=R">
@@ -247,12 +250,9 @@ window.Quarto = {
           
         </div>
         
-        
-        <p class="card-text listing-description">Discover algorithms in item response theory to design shorter, adaptive, and reliable tests</p>
-        
         <div class="mt-auto">
           <div class="listing-author text-muted small">
-            Ottavia Epifania
+            OTTAVIA EPIFANIA
           </div>
         </div>
       </div>
@@ -269,6 +269,9 @@ window.Quarto = {
           <h5 class="card-title listing-title no-anchor">Basics of Python for Data Science</h5>
         </a>
         
+        <p class="card-text listing-description">Introductory Python for data science, hands-on basics, tools setup, core syntax, key libraries</p>
+        
+        
         <div class="listing-categories mb-2">
           
             <a class="category-link badge bg-light text-dark border me-1" href="#category=Python">
@@ -281,12 +284,9 @@ window.Quarto = {
           
         </div>
         
-        
-        <p class="card-text listing-description">Introductory Python for data science, hands-on basics, tools setup, core syntax, key libraries</p>
-        
         <div class="mt-auto">
           <div class="listing-author text-muted small">
-            Enrico Toffalini
+            ENRICO TOFFALINI
           </div>
         </div>
       </div>
@@ -302,6 +302,9 @@ window.Quarto = {
         <a href="https://stat-teaching.github.io/GLMphd/" class="title-link">
           <h5 class="card-title listing-title no-anchor">Generalized Linear Models</h5>
         </a>
+        
+        <p class="card-text listing-description">PhD-level Generalized Linear Models course, R-package materials, labs, slides for applied statistical modeling</p>
+        
         
         <div class="listing-categories mb-2">
           
@@ -319,12 +322,9 @@ window.Quarto = {
           
         </div>
         
-        
-        <p class="card-text listing-description">PhD-level Generalized Linear Models course, R-package materials, labs, slides for applied statistical modeling</p>
-        
         <div class="mt-auto">
           <div class="listing-author text-muted small">
-            Filippo Gambarota
+            FILIPPO GAMBAROTA
           </div>
         </div>
       </div>
@@ -340,6 +340,9 @@ window.Quarto = {
         <a href="" class="title-link">
           <h5 class="card-title listing-title no-anchor">Structural Equation Modeling</h5>
         </a>
+        
+        <p class="card-text listing-description">PhD-level Structural Equation Modeling, theory, estimation, and applied modeling with observed and latent variables</p>
+        
         
         <div class="listing-categories mb-2">
           
@@ -361,12 +364,9 @@ window.Quarto = {
           
         </div>
         
-        
-        <p class="card-text listing-description">PhD-level Structural Equation Modeling, theory, estimation, and applied modeling with observed and latent variables</p>
-        
         <div class="mt-auto">
           <div class="listing-author text-muted small">
-            Tommaso Feraco
+            TOMMASO FERACO
           </div>
         </div>
       </div>
@@ -383,6 +383,9 @@ window.Quarto = {
           <h5 class="card-title listing-title no-anchor">Basics of R for Data Science</h5>
         </a>
         
+        <p class="card-text listing-description">Foundational R programming for PhD students, data structures, control flow, and core statistical tools</p>
+        
+        
         <div class="listing-categories mb-2">
           
             <a class="category-link badge bg-light text-dark border me-1" href="#category=R">
@@ -395,12 +398,9 @@ window.Quarto = {
           
         </div>
         
-        
-        <p class="card-text listing-description">Foundational R programming for PhD students, data structures, control flow, and core statistical tools</p>
-        
         <div class="mt-auto">
           <div class="listing-author text-muted small">
-            Enrico Toffalini
+            ENRICO TOFFALINI
           </div>
         </div>
       </div>
@@ -417,6 +417,9 @@ window.Quarto = {
           <h5 class="card-title listing-title no-anchor">Introduzione a R</h5>
         </a>
         
+        <p class="card-text listing-description">Basi di R, logica della programmazione, strutture di dati, e come scrivere codice</p>
+        
+        
         <div class="listing-categories mb-2">
           
             <a class="category-link badge bg-light text-dark border me-1" href="#category=R">
@@ -429,12 +432,9 @@ window.Quarto = {
           
         </div>
         
-        
-        <p class="card-text listing-description">Basi di R, logica della programmazione, strutture di dati, e come scrivere codice</p>
-        
         <div class="mt-auto">
           <div class="listing-author text-muted small">
-            Margherita Calderan
+            MARGHERITA CALDERAN
           </div>
         </div>
       </div>
@@ -451,6 +451,9 @@ window.Quarto = {
           <h5 class="card-title listing-title no-anchor">A practical introduction to evidence accumulation models</h5>
         </a>
         
+        <p class="card-text listing-description">Evidence-accumulation models, modeling perceptual judgments with both response times and choice data</p>
+        
+        
         <div class="listing-categories mb-2">
           
             <a class="category-link badge bg-light text-dark border me-1" href="#category=R">
@@ -463,12 +466,9 @@ window.Quarto = {
           
         </div>
         
-        
-        <p class="card-text listing-description">Evidence-accumulation models, modeling perceptual judgments with both response times and choice data</p>
-        
         <div class="mt-auto">
           <div class="listing-author text-muted small">
-            Margherita Calderan
+            MARGHERITA CALDERAN
           </div>
         </div>
       </div>
@@ -484,6 +484,9 @@ window.Quarto = {
         <a href="https://ambraperugini.github.io/Quarto_ARCA/" class="title-link">
           <h5 class="card-title listing-title no-anchor">RMarkdown: Analisi riproducibili, presentazioni, report... e molto altro</h5>
         </a>
+        
+        <p class="card-text listing-description">Competenze base di RMarkdown e Quarto, creare documenti PDF, HTML e di presentazione dal codice</p>
+        
         
         <div class="listing-categories mb-2">
           
@@ -501,12 +504,9 @@ window.Quarto = {
           
         </div>
         
-        
-        <p class="card-text listing-description">Competenze base di RMarkdown e Quarto, creare documenti PDF, HTML e di presentazione dal codice</p>
-        
         <div class="mt-auto">
           <div class="listing-author text-muted small">
-            Ambra Perugini
+            AMBRA PERUGINI
           </div>
         </div>
       </div>

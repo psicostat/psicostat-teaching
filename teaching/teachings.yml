@@ -1,48 +1,48 @@
 - title: "Say “when”: IRT based algorithms to shorten tests"
-  author: Ottavia Epifania
-  categories: [R, IRT, psychometrics, modeling]
+  author: OTTAVIA EPIFANIA
   description: Discover algorithms in item response theory to design shorter, adaptive, and reliable tests
+  categories: [R, IRT, psychometrics, modeling]
   image: teaching/images/1.png
   link: https://ottaviae.github.io/beyond-summer-school/algorithms/algortithms.html#/title-slide
 - title: "Basics of Python for Data Science"
-  author: Enrico Toffalini
-  categories: [Python, programming]
+  author: ENRICO TOFFALINI
   description: Introductory Python for data science, hands-on basics, tools setup, core syntax, key libraries
+  categories: [Python, programming]
   image: teaching/images/2.png
   link: https://enricotoffalini.github.io/Basics-Python/
 - title: "Generalized Linear Models"
-  author: Filippo Gambarota
-  categories: [R, GLM, modeling]
+  author: FILIPPO GAMBAROTA
   description: PhD-level Generalized Linear Models course, R-package materials, labs, slides for applied statistical modeling
+  categories: [R, GLM, modeling]
   image: teaching/images/3.png
   link: https://stat-teaching.github.io/GLMphd/
 - title: "Structural Equation Modeling"
-  author: Tommaso Feraco
-  categories: [R, SEM, psychometrics, modeling]
+  author: TOMMASO FERACO
   description: PhD-level Structural Equation Modeling, theory, estimation, and applied modeling with observed and latent variables
+  categories: [R, SEM, psychometrics, modeling]
   image: teaching/images/4.png
   link: 
 - title: "Basics of R for Data Science"
-  author: Enrico Toffalini
-  categories: [R, programming]
+  author: ENRICO TOFFALINI
   description: Foundational R programming for PhD students, data structures, control flow, and core statistical tools
+  categories: [R, programming]
   image: teaching/images/5.png
   link: https://enricotoffalini.github.io/Basics-R/
 - title: "Introduzione a R"
-  author: Margherita Calderan
-  categories: [R, programming]
+  author: MARGHERITA CALDERAN
   description: Basi di R, logica della programmazione, strutture di dati, e come scrivere codice
+  categories: [R, programming]
   image: teaching/images/6.png
   link: https://arca-dpss.github.io/course-R-2425/
 - title: "A practical introduction to evidence accumulation models"
-  author: Margherita Calderan
-  categories: [R, modeling]
+  author: MARGHERITA CALDERAN
   description: Evidence-accumulation models, modeling perceptual judgments with both response times and choice data
+  categories: [R, modeling]
   image: teaching/images/7.png
   link: https://mar-cald.github.io/eam-workshop/eam-home.html
 - title: "RMarkdown: Analisi riproducibili, presentazioni, report... e molto altro"
-  author: Ambra Perugini
-  categories: [R, Quarto, markdown]
+  author: AMBRA PERUGINI
   description: Competenze base di RMarkdown e Quarto, creare documenti PDF, HTML e di presentazione dal codice
+  categories: [R, Quarto, markdown]
   image: teaching/images/8.png
   link: https://ambraperugini.github.io/Quarto_ARCA/
