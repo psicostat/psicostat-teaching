@@ -15,8 +15,9 @@
 }
 
 .badge {
-  color: black !important;
+  color: #444444 !important;
   font-weight: normal !important;
+  font-size: 10pt !important;
 }
 
 .card {
