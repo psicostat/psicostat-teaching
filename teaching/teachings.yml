@@ -1,36 +1,48 @@
-- title: "Generalized Linear Models"
-  author: Filippo Gambarota
-  categories: [GLM, R]
-  description: "some description about GLM for phd etc."
-  image: teaching/images/glm.png
-  link: "https://stat-teaching.github.io/GLMphd/"
-- title: "Intro to Item Response Theory with R"
+- title: "Say “when”: IRT based algorithms to shorten tests"
   author: Ottavia Epifania
-  categories: [R, IRT, Psychometrics]
-  description: "some description about short IRT course for more brilliant psychometrics etc."
-  image: teaching/images/irt.png
-  link: "https://ottaviae.github.io/IRTintro/"
+  categories: [R]
+  description: "description"
+  image: teaching/images/0.png
+  link: https://ottaviae.github.io/beyond-summer-school/algorithms/algortithms.html#/title-slide
 - title: "Basics of Python for Data Science"
   author: Enrico Toffalini
-  categories: [Python, Programming]
-  description: "some description about python course for data science etc."
-  image: teaching/images/python.png
-  link: "https://enricotoffalini.github.io/Basics-Python/"
+  categories: [TBD]
+  description: "description"
+  image: teaching/images/1.png
+  link: https://enricotoffalini.github.io/Basics-Python/
 - title: "Generalized Linear Models"
   author: Filippo Gambarota
-  categories: [GLM, R]
-  description: "some description about GLM for phd etc."
-  image: teaching/images/glm.png
-  link: "https://stat-teaching.github.io/GLMphd/"
-- title: "Intro to Item Response Theory with R"
-  author: Ottavia Epifania
-  categories: [R, IRT, Psychometrics]
-  description: "some description about short IRT course for more brilliant psychometrics etc."
-  image: teaching/images/irt.png
-  link: "https://ottaviae.github.io/IRTintro/"
-- title: "Basics of Python for Data Science"
+  categories: [R]
+  description: "description"
+  image: teaching/images/2.png
+  link: https://stat-teaching.github.io/GLMphd/
+- title: "Structural Equation Modeling"
+  author: Tommaso Feraco
+  categories: [TBD]
+  description: "description"
+  image: teaching/images/0.png
+  link: 
+- title: "Basics of R for Data Science"
   author: Enrico Toffalini
-  categories: [Python, Programming]
-  description: "some description about python course for data science etc."
-  image: teaching/images/python.png
-  link: "https://enricotoffalini.github.io/Basics-Python/"
+  categories: [TBD]
+  description: "description"
+  image: teaching/images/0.png
+  link: https://enricotoffalini.github.io/Basics-R/
+- title: "Introduzione a R"
+  author: Margherita Calderan
+  categories: [R]
+  description: "description"
+  image: teaching/images/0.png
+  link: https://arca-dpss.github.io/course-R-2425/
+- title: "A practical introduction to evidence accumulation models"
+  author: Margherita Calderan
+  categories: [TBD]
+  description: "description"
+  image: teaching/images/0.png
+  link: https://mar-cald.github.io/eam-workshop/eam-home.html
+- title: "RMarkdown: Analisi riproducibili, presentazioni, report... e molto altro"
+  author: Ambra Perugini
+  categories: [TBD]
+  description: "description"
+  image: teaching/images/0.png
+  link: https://ambraperugini.github.io/Quarto_ARCA/

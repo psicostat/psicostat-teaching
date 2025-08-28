@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.21">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,14 +35,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea1d7ac60288e0f1efdbc993fd8432ae.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a14e3238c51140e99ccc48519b6ed9ce.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9514850a8fb38d7816efb3821055217c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -114,7 +115,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -141,7 +142,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./assets/simplelogopsicostat.png" alt="" class="navbar-logo">
+    <img src="./assets/simplelogopsicostat.png" alt="" class="navbar-logo light-content">
+    <img src="./assets/simplelogopsicostat.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Psicostat teachings and workshops</span>
@@ -159,7 +161,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="R0xN">GLM <span class="quarto-category-count">(2)</span></div><div class="category" data-category="SVJU">IRT <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UHJvZ3JhbW1pbmc=">Programming <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UHN5Y2hvbWV0cmljcw==">Psychometrics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UHl0aG9u">Python <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(4)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(3)</span></div><div class="category" data-category="VEJE">TBD <span class="quarto-category-count">(5)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -216,49 +218,15 @@ window.Quarto = {
 </div>
 <div class="list grid">
   
-    <div class="card h-100" data-index="0" data-categories="R0xNJTJDUg=="> 
+    <div class="card h-100" data-index="0" data-categories="Ug=="> 
       
-      <a href="https://stat-teaching.github.io/GLMphd/">
-        <img loading="lazy" src="teaching/images/glm.png" class="card-img-top" alt="">
+      <a href="https://ottaviae.github.io/beyond-summer-school/algorithms/algortithms.html#/title-slide">
+        <img loading="lazy" src="teaching/images/0.png" class="card-img-top" alt="">
       </a>
       
       <div class="card-body post-contents d-flex flex-column">
-        <a href="https://stat-teaching.github.io/GLMphd/" class="title-link">
-          <h5 class="card-title listing-title no-anchor">Generalized Linear Models</h5>
-        </a>
-        
-        <div class="listing-categories mb-2">
-          
-            <a class="category-link badge bg-light text-dark border me-1" href="#category=GLM">
-              GLM
-            </a>
-          
-            <a class="category-link badge bg-light text-dark border me-1" href="#category=R">
-              R
-            </a>
-          
-        </div>
-        
-        
-        <p class="card-text listing-description">some description about GLM for phd etc.</p>
-        
-        <div class="mt-auto">
-          <div class="listing-author text-muted small">
-            Filippo Gambarota
-          </div>
-        </div>
-      </div>
-    </div>
-  
-    <div class="card h-100" data-index="1" data-categories="UiUyQ0lSVCUyQ1BzeWNob21ldHJpY3M="> 
-      
-      <a href="https://ottaviae.github.io/IRTintro/">
-        <img loading="lazy" src="teaching/images/irt.png" class="card-img-top" alt="">
-      </a>
-      
-      <div class="card-body post-contents d-flex flex-column">
-        <a href="https://ottaviae.github.io/IRTintro/" class="title-link">
-          <h5 class="card-title listing-title no-anchor">Intro to Item Response Theory with R</h5>
+        <a href="https://ottaviae.github.io/beyond-summer-school/algorithms/algortithms.html#/title-slide" class="title-link">
+          <h5 class="card-title listing-title no-anchor">Say “when”: IRT based algorithms to shorten tests</h5>
         </a>
         
         <div class="listing-categories mb-2">
@@ -267,18 +235,10 @@ window.Quarto = {
               R
             </a>
           
-            <a class="category-link badge bg-light text-dark border me-1" href="#category=IRT">
-              IRT
-            </a>
-          
-            <a class="category-link badge bg-light text-dark border me-1" href="#category=Psychometrics">
-              Psychometrics
-            </a>
-          
         </div>
         
         
-        <p class="card-text listing-description">some description about short IRT course for more brilliant psychometrics etc.</p>
+        <p class="card-text listing-description">description</p>
         
         <div class="mt-auto">
           <div class="listing-author text-muted small">
@@ -288,10 +248,10 @@ window.Quarto = {
       </div>
     </div>
   
-    <div class="card h-100" data-index="2" data-categories="UHl0aG9uJTJDUHJvZ3JhbW1pbmc="> 
+    <div class="card h-100" data-index="1" data-categories="VEJE"> 
       
       <a href="https://enricotoffalini.github.io/Basics-Python/">
-        <img loading="lazy" src="teaching/images/python.png" class="card-img-top" alt="">
+        <img loading="lazy" src="teaching/images/1.png" class="card-img-top" alt="">
       </a>
       
       <div class="card-body post-contents d-flex flex-column">
@@ -301,18 +261,14 @@ window.Quarto = {
         
         <div class="listing-categories mb-2">
           
-            <a class="category-link badge bg-light text-dark border me-1" href="#category=Python">
-              Python
-            </a>
-          
-            <a class="category-link badge bg-light text-dark border me-1" href="#category=Programming">
-              Programming
+            <a class="category-link badge bg-light text-dark border me-1" href="#category=TBD">
+              TBD
             </a>
           
         </div>
         
         
-        <p class="card-text listing-description">some description about python course for data science etc.</p>
+        <p class="card-text listing-description">description</p>
         
         <div class="mt-auto">
           <div class="listing-author text-muted small">
@@ -322,10 +278,10 @@ window.Quarto = {
       </div>
     </div>
   
-    <div class="card h-100" data-index="3" data-categories="R0xNJTJDUg=="> 
+    <div class="card h-100" data-index="2" data-categories="Ug=="> 
       
       <a href="https://stat-teaching.github.io/GLMphd/">
-        <img loading="lazy" src="teaching/images/glm.png" class="card-img-top" alt="">
+        <img loading="lazy" src="teaching/images/2.png" class="card-img-top" alt="">
       </a>
       
       <div class="card-body post-contents d-flex flex-column">
@@ -335,10 +291,6 @@ window.Quarto = {
         
         <div class="listing-categories mb-2">
           
-            <a class="category-link badge bg-light text-dark border me-1" href="#category=GLM">
-              GLM
-            </a>
-          
             <a class="category-link badge bg-light text-dark border me-1" href="#category=R">
               R
             </a>
@@ -346,7 +298,7 @@ window.Quarto = {
         </div>
         
         
-        <p class="card-text listing-description">some description about GLM for phd etc.</p>
+        <p class="card-text listing-description">description</p>
         
         <div class="mt-auto">
           <div class="listing-author text-muted small">
@@ -356,15 +308,75 @@ window.Quarto = {
       </div>
     </div>
   
-    <div class="card h-100" data-index="4" data-categories="UiUyQ0lSVCUyQ1BzeWNob21ldHJpY3M="> 
+    <div class="card h-100" data-index="3" data-categories="VEJE"> 
       
-      <a href="https://ottaviae.github.io/IRTintro/">
-        <img loading="lazy" src="teaching/images/irt.png" class="card-img-top" alt="">
+      <a href="">
+        <img loading="lazy" src="teaching/images/0.png" class="card-img-top" alt="">
       </a>
       
       <div class="card-body post-contents d-flex flex-column">
-        <a href="https://ottaviae.github.io/IRTintro/" class="title-link">
-          <h5 class="card-title listing-title no-anchor">Intro to Item Response Theory with R</h5>
+        <a href="" class="title-link">
+          <h5 class="card-title listing-title no-anchor">Structural Equation Modeling</h5>
+        </a>
+        
+        <div class="listing-categories mb-2">
+          
+            <a class="category-link badge bg-light text-dark border me-1" href="#category=TBD">
+              TBD
+            </a>
+          
+        </div>
+        
+        
+        <p class="card-text listing-description">description</p>
+        
+        <div class="mt-auto">
+          <div class="listing-author text-muted small">
+            Tommaso Feraco
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="card h-100" data-index="4" data-categories="VEJE"> 
+      
+      <a href="https://enricotoffalini.github.io/Basics-R/">
+        <img loading="lazy" src="teaching/images/0.png" class="card-img-top" alt="">
+      </a>
+      
+      <div class="card-body post-contents d-flex flex-column">
+        <a href="https://enricotoffalini.github.io/Basics-R/" class="title-link">
+          <h5 class="card-title listing-title no-anchor">Basics of R for Data Science</h5>
+        </a>
+        
+        <div class="listing-categories mb-2">
+          
+            <a class="category-link badge bg-light text-dark border me-1" href="#category=TBD">
+              TBD
+            </a>
+          
+        </div>
+        
+        
+        <p class="card-text listing-description">description</p>
+        
+        <div class="mt-auto">
+          <div class="listing-author text-muted small">
+            Enrico Toffalini
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="card h-100" data-index="5" data-categories="Ug=="> 
+      
+      <a href="https://arca-dpss.github.io/course-R-2425/">
+        <img loading="lazy" src="teaching/images/0.png" class="card-img-top" alt="">
+      </a>
+      
+      <div class="card-body post-contents d-flex flex-column">
+        <a href="https://arca-dpss.github.io/course-R-2425/" class="title-link">
+          <h5 class="card-title listing-title no-anchor">Introduzione a R</h5>
         </a>
         
         <div class="listing-categories mb-2">
@@ -373,56 +385,74 @@ window.Quarto = {
               R
             </a>
           
-            <a class="category-link badge bg-light text-dark border me-1" href="#category=IRT">
-              IRT
-            </a>
-          
-            <a class="category-link badge bg-light text-dark border me-1" href="#category=Psychometrics">
-              Psychometrics
-            </a>
-          
         </div>
         
         
-        <p class="card-text listing-description">some description about short IRT course for more brilliant psychometrics etc.</p>
+        <p class="card-text listing-description">description</p>
         
         <div class="mt-auto">
           <div class="listing-author text-muted small">
-            Ottavia Epifania
+            Margherita Calderan
           </div>
         </div>
       </div>
     </div>
   
-    <div class="card h-100" data-index="5" data-categories="UHl0aG9uJTJDUHJvZ3JhbW1pbmc="> 
+    <div class="card h-100" data-index="6" data-categories="VEJE"> 
       
-      <a href="https://enricotoffalini.github.io/Basics-Python/">
-        <img loading="lazy" src="teaching/images/python.png" class="card-img-top" alt="">
+      <a href="https://mar-cald.github.io/eam-workshop/eam-home.html">
+        <img loading="lazy" src="teaching/images/0.png" class="card-img-top" alt="">
       </a>
       
       <div class="card-body post-contents d-flex flex-column">
-        <a href="https://enricotoffalini.github.io/Basics-Python/" class="title-link">
-          <h5 class="card-title listing-title no-anchor">Basics of Python for Data Science</h5>
+        <a href="https://mar-cald.github.io/eam-workshop/eam-home.html" class="title-link">
+          <h5 class="card-title listing-title no-anchor">A practical introduction to evidence accumulation models</h5>
         </a>
         
         <div class="listing-categories mb-2">
           
-            <a class="category-link badge bg-light text-dark border me-1" href="#category=Python">
-              Python
-            </a>
-          
-            <a class="category-link badge bg-light text-dark border me-1" href="#category=Programming">
-              Programming
+            <a class="category-link badge bg-light text-dark border me-1" href="#category=TBD">
+              TBD
             </a>
           
         </div>
         
         
-        <p class="card-text listing-description">some description about python course for data science etc.</p>
+        <p class="card-text listing-description">description</p>
         
         <div class="mt-auto">
           <div class="listing-author text-muted small">
-            Enrico Toffalini
+            Margherita Calderan
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="card h-100" data-index="7" data-categories="VEJE"> 
+      
+      <a href="https://ambraperugini.github.io/Quarto_ARCA/">
+        <img loading="lazy" src="teaching/images/0.png" class="card-img-top" alt="">
+      </a>
+      
+      <div class="card-body post-contents d-flex flex-column">
+        <a href="https://ambraperugini.github.io/Quarto_ARCA/" class="title-link">
+          <h5 class="card-title listing-title no-anchor">RMarkdown: Analisi riproducibili, presentazioni, report... e molto altro</h5>
+        </a>
+        
+        <div class="listing-categories mb-2">
+          
+            <a class="category-link badge bg-light text-dark border me-1" href="#category=TBD">
+              TBD
+            </a>
+          
+        </div>
+        
+        
+        <p class="card-text listing-description">description</p>
+        
+        <div class="mt-auto">
+          <div class="listing-author text-muted small">
+            Ambra Perugini
           </div>
         </div>
       </div>
