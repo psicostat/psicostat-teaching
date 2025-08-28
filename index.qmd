@@ -1,5 +1,5 @@
 ---
-title: "Teachings & Workshops"
+title: "<a href='https://psicostat.github.io/psicostat-teaching/'>Teachings & Workshops</a>"
 listing:
   contents: teaching/teachings.yml
   type: grid

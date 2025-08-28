@@ -1,5 +1,9 @@
 .navbar {
   background-color: #760000 !important;
+  font-family: Courier New, Courier, monospace;
+}
+.navbar-title {
+  font-weight: bold;
 }
 
 .list.grid {
@@ -34,7 +38,7 @@
 
 .title-link {
   text-decoration: none;
-  color: #760000;
+  color: #760000 !important;
   font-weight: bold;
   text-align: center;
 }
@@ -49,4 +53,15 @@
 
 .listing-author {
   font-family: Courier New, Courier, monospace;
+}
+
+
+#title-block-header .quarto-title .title a,
+#title-block-header .quarto-title .title a:visited,
+#title-block-header .quarto-title .title a:hover,
+#title-block-header .quarto-title .title a:active,
+#title-block-header .quarto-title .title a:focus {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
 }

@@ -5,10 +5,11 @@ project:
     - quarto-scripts/create-teaching-yml.r
 
 website:
-  title: "Psicostat teachings and workshops"
+  title: "PSICOSTAT"
   favicon: assets/faviconpsicostat.png
   navbar:
     logo: assets/simplelogopsicostat.png
+    logo-href: https://psicostat.dpss.psy.unipd.it/
 
 format:
    html:
