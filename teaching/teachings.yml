@@ -1,9 +1,9 @@
-- title: "Say “when”: IRT based algorithms to shorten tests"
+- title: "An introduction to Item Response Theory Models with R"
   author: OTTAVIA EPIFANIA
-  description: Discover algorithms in item response theory to design shorter, adaptive, and reliable tests <span class="fi fi-gb"></span>
-  categories: [R, IRT, psychometrics, modeling]
+  description: The aim of the course is to give an overview on IRT models, with a focus on IRT models for dichotomous responses <span class="fi fi-gb"></span>
+  categories: [IRT]
   image: teaching/images/1.png
-  link: https://ottaviae.github.io/beyond-summer-school/algorithms/algortithms.html#/title-slide
+  link: https://ottaviae.github.io/IRTintro/
   lang: english
 - title: "Basics of Python for Data Science"
   author: ENRICO TOFFALINI
@@ -35,7 +35,7 @@
   lang: english
 - title: "Introduzione a R"
   author: MARGHERITA CALDERAN
-  description: Basi di R, logica della programmazione, strutture di dati, e come scrivere codice <span class="fi fi-it"></span>
+  description: Basi di R, logica della programmazione, strutture di dati, e come scrivere codice. Ideale per studenti universitari <span class="fi fi-it"></span>
   categories: [R, programming]
   image: teaching/images/6.png
   link: https://arca-dpss.github.io/course-R-2425/
@@ -47,17 +47,59 @@
   image: teaching/images/7.png
   link: https://mar-cald.github.io/eam-workshop/eam-home.html
   lang: english
-- title: "RMarkdown. Analisi riproducibili, presentazioni, report... e molto altro"
-  author: NA
-  description: Competenze base di RMarkdown e Quarto, creare documenti PDF, HTML e di presentazione dal codice <span class="fi fi-it"></span>
-  categories: [R, Quarto, markdown]
+- title: "Reporting Using Quarto"
+  author: OTTAVIA EPIFANIA
+  description: An introduction to Quarto and its basic features, along with a presentation on how to exploit it functionalities to create polished, professional outputs with embedded code chunks <span class="fi fi-gb"></span>
+  categories: [Quarto, markdown]
   image: teaching/images/8.png
-  link: 
-  lang: italian
+  link: https://arca-dpss.github.io/quarto-school/
+  lang: english
 - title: "Evaluation of outliers and influential cases in a multivariate perspective"
   author: GIANMARCO ALTOÈ
-  description: Outliers (i.e., single observations that are distant from the others based on the variables of interest) and influential cases (i.e., single observations with a huge impact on the estimated parameters of a model) are ubiquitous in statistical analyses in psychology. In this course, based on practical examples, we will see how to define, identify, and handle univariate and multivariate outliers as well as influential cases. On a practical level, various statistical methods will be presented using the R software. These methods can easily be extended to other statistical software as well. <span class="fi fi-gb"></span>
-  categories: [Statistics, outliers, influential cases, R]
+  description: Practical R-based methods to define, detect, and manage univariate and multivariate outliers and influential cases <span class="fi fi-gb"></span>
+  categories: [statistics, outliers, influential cases, R]
+  image: teaching/images/0.png
+  link: https://osf.io/e46y3/
+  lang: english
+- title: "Current issues in statistical inference for Psychology"
+  author: MASSIMILIANO PASTORE
+  description: Key challenges in psychological research statistics, statistical significance issues, replicability and reproducibility crises, and new strategies to enhance research quality <span class="fi fi-gb"></span>
+  categories: [statistics, reproducibility crisis]
   image: teaching/images/0.png
   link: 
   lang: english
+- title: "Bayesian Data Analysis in Psychological Research"
+  author: MASSIMILIANO PASTORE
+  description: Introduces the Bayesian approach, covering probability basics, binomial and normal models. Includes practical training in STAN with R applications. <span class="fi fi-gb"></span>
+  categories: [statistics, bayesian, R, Stan]
+  image: teaching/images/0.png
+  link: 
+  lang: english
+- title: "Data Simulation in Psychological Studies"
+  author: MASSIMILIANO PASTORE
+  description: Data simulation for understanding and evaluating data analysis models. Extends Power and Design Analysis concepts, with simulations for linear, logistic, and reaction time models in R <span class="fi fi-gb"></span>
+  categories: [statistics, R, Monte Carlo, simulation]
+  image: teaching/images/0.png
+  link: 
+  lang: english
+- title: "Shine bright like an open-source app: Piccola introduzione a Shiny"
+  author: OTTAVIA EPIFANIA
+  description: NA <span class="fi fi-it"></span>
+  categories: [shiny]
+  image: teaching/images/0.png
+  link: https://psicostat.github.io/shine-bright/
+  lang: italian
+- title: "Introduction to R and shiny"
+  author: OTTAVIA EPIFANIA
+  description: This is a basic course on R and Shiny for the Qhelp seminar <span class="fi fi-gb"></span>
+  categories: [R, shiny]
+  image: teaching/images/0.png
+  link: https://ottaviae.github.io/RcouRse/
+  lang: english
+- title: "RMarkdown. Analisi riproducibili, presentazioni, report"
+  author: AMBRA PERUGINI
+  description: Competenze base di RMarkdown (e Quarto), creare documenti PDF, HTML e presentazioni dal codice <span class="fi fi-it"></span>
+  categories: [R, markdown]
+  image: teaching/images/0.png
+  link: https://ambraperugini.github.io/Quarto_ARCA/
+  lang: italian

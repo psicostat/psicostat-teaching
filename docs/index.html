@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a14e3238c51140e99ccc48519b6ed9ce.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-991b1886d3c685c7aa2b62b80640c7af.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -81,7 +81,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-title','listing-author','listing-image','listing-categories','listing-description','listing-lang',{ data: ['index'] },{ data: ['categories'] }],
-      
+      page: 10,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-description","listing-categories","listing-image","listing-link","listing-lang"],
     };
 
@@ -159,7 +160,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(9)</span></div><div class="category" data-category="R0xN">GLM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aW5mbHVlbnRpYWwlMjBjYXNlcw==">influential cases <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SVJU">IRT <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWFya2Rvd24=">markdown <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bW9kZWxpbmc=">modeling <span class="quarto-category-count">(4)</span></div><div class="category" data-category="b3V0bGllcnM=">outliers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHJvZ3JhbW1pbmc=">programming <span class="quarto-category-count">(3)</span></div><div class="category" data-category="cHN5Y2hvbWV0cmljcw==">psychometrics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UHl0aG9u">Python <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UXVhcnRv">Quarto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(8)</span></div><div class="category" data-category="U0VN">SEM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U3RhdGlzdGljcw==">Statistics <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(15)</span></div><div class="category" data-category="YmF5ZXNpYW4=">bayesian <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R0xN">GLM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aW5mbHVlbnRpYWwlMjBjYXNlcw==">influential cases <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SVJU">IRT <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWFya2Rvd24=">markdown <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bW9kZWxpbmc=">modeling <span class="quarto-category-count">(3)</span></div><div class="category" data-category="TW9udGUlMjBDYXJsbw==">Monte Carlo <span class="quarto-category-count">(1)</span></div><div class="category" data-category="b3V0bGllcnM=">outliers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHJvZ3JhbW1pbmc=">programming <span class="quarto-category-count">(3)</span></div><div class="category" data-category="cHN5Y2hvbWV0cmljcw==">psychometrics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHl0aG9u">Python <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UXVhcnRv">Quarto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(10)</span></div><div class="category" data-category="cmVwcm9kdWNpYmlsaXR5JTIwY3Jpc2lz">reproducibility crisis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U0VN">SEM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2hpbnk=">shiny <span class="quarto-category-count">(2)</span></div><div class="category" data-category="c2ltdWxhdGlvbg==">simulation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U3Rhbg==">Stan <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c3RhdGlzdGljcw==">statistics <span class="quarto-category-count">(4)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -220,36 +221,24 @@ window.Quarto = {
 </div>
 <div class="list grid">
   
-    <div class="card h-100" data-index="0" data-categories="UiUyQ0lSVCUyQ3BzeWNob21ldHJpY3MlMkNtb2RlbGluZw=="> 
+    <div class="card h-100" data-index="0" data-categories="SVJU"> 
       
-      <a href="https://ottaviae.github.io/beyond-summer-school/algorithms/algortithms.html#/title-slide">
+      <a href="https://ottaviae.github.io/IRTintro/">
         <img loading="lazy" src="teaching/images/1.png" class="card-img-top" alt="">
       </a>
       
       <div class="card-body post-contents d-flex flex-column">
-        <a href="https://ottaviae.github.io/beyond-summer-school/algorithms/algortithms.html#/title-slide" class="title-link">
-          <h5 class="card-title listing-title no-anchor">Say “when”: IRT based algorithms to shorten tests</h5>
+        <a href="https://ottaviae.github.io/IRTintro/" class="title-link">
+          <h5 class="card-title listing-title no-anchor">An introduction to Item Response Theory Models with R</h5>
         </a>
         
-        <p class="card-text listing-description">Discover algorithms in item response theory to design shorter, adaptive, and reliable tests <span class="fi fi-gb"></span></p>
+        <p class="card-text listing-description">The aim of the course is to give an overview on IRT models, with a focus on IRT models for dichotomous responses <span class="fi fi-gb"></span></p>
         
         
         <div class="listing-categories mb-2">
           
-            <a class="category-link badge bg-light text-dark border me-1" href="#category=R">
-              R
-            </a>
-          
             <a class="category-link badge bg-light text-dark border me-1" href="#category=IRT">
               IRT
-            </a>
-          
-            <a class="category-link badge bg-light text-dark border me-1" href="#category=psychometrics">
-              psychometrics
-            </a>
-          
-            <a class="category-link badge bg-light text-dark border me-1" href="#category=modeling">
-              modeling
             </a>
           
         </div>
@@ -421,7 +410,7 @@ window.Quarto = {
           <h5 class="card-title listing-title no-anchor">Introduzione a R</h5>
         </a>
         
-        <p class="card-text listing-description">Basi di R, logica della programmazione, strutture di dati, e come scrivere codice <span class="fi fi-it"></span></p>
+        <p class="card-text listing-description">Basi di R, logica della programmazione, strutture di dati, e come scrivere codice. Ideale per studenti universitari <span class="fi fi-it"></span></p>
         
         
         <div class="listing-categories mb-2">
@@ -478,25 +467,21 @@ window.Quarto = {
       </div>
     </div>
   
-    <div class="card h-100" data-index="7" data-categories="UiUyQ1F1YXJ0byUyQ21hcmtkb3du"> 
+    <div class="card h-100" data-index="7" data-categories="UXVhcnRvJTJDbWFya2Rvd24="> 
       
-      <a href="">
+      <a href="https://arca-dpss.github.io/quarto-school/">
         <img loading="lazy" src="teaching/images/8.png" class="card-img-top" alt="">
       </a>
       
       <div class="card-body post-contents d-flex flex-column">
-        <a href="" class="title-link">
-          <h5 class="card-title listing-title no-anchor">RMarkdown. Analisi riproducibili, presentazioni, report... e molto altro</h5>
+        <a href="https://arca-dpss.github.io/quarto-school/" class="title-link">
+          <h5 class="card-title listing-title no-anchor">Reporting Using Quarto</h5>
         </a>
         
-        <p class="card-text listing-description">Competenze base di RMarkdown e Quarto, creare documenti PDF, HTML e di presentazione dal codice <span class="fi fi-it"></span></p>
+        <p class="card-text listing-description">An introduction to Quarto and its basic features, along with a presentation on how to exploit it functionalities to create polished, professional outputs with embedded code chunks <span class="fi fi-gb"></span></p>
         
         
         <div class="listing-categories mb-2">
-          
-            <a class="category-link badge bg-light text-dark border me-1" href="#category=R">
-              R
-            </a>
           
             <a class="category-link badge bg-light text-dark border me-1" href="#category=Quarto">
               Quarto
@@ -510,30 +495,30 @@ window.Quarto = {
         
         <div class="mt-auto">
           <div class="listing-author text-muted small">
-            NA
+            OTTAVIA EPIFANIA
           </div>
         </div>
       </div>
     </div>
   
-    <div class="card h-100" data-index="8" data-categories="U3RhdGlzdGljcyUyQ291dGxpZXJzJTJDaW5mbHVlbnRpYWwlMjBjYXNlcyUyQ1I="> 
+    <div class="card h-100" data-index="8" data-categories="c3RhdGlzdGljcyUyQ291dGxpZXJzJTJDaW5mbHVlbnRpYWwlMjBjYXNlcyUyQ1I="> 
       
-      <a href="">
+      <a href="https://osf.io/e46y3/">
         <img loading="lazy" src="teaching/images/0.png" class="card-img-top" alt="">
       </a>
       
       <div class="card-body post-contents d-flex flex-column">
-        <a href="" class="title-link">
+        <a href="https://osf.io/e46y3/" class="title-link">
           <h5 class="card-title listing-title no-anchor">Evaluation of outliers and influential cases in a multivariate perspective</h5>
         </a>
         
-        <p class="card-text listing-description">Outliers (i.e., single observations that are distant from the others based on the variables of interest) and influential cases (i.e., single observations with a huge impact on the estimated parameters of a model) are ubiquitous in statistical analyses in psychology. In this course, based on practical examples, we will see how to define, identify, and handle univariate and multivariate outliers as well as influential cases. On a practical level, various statistical methods will be presented using the R software. These methods can easily be extended to other statistical software as well. <span class="fi fi-gb"></span></p>
+        <p class="card-text listing-description">Practical R-based methods to define, detect, and manage univariate and multivariate outliers and influential cases <span class="fi fi-gb"></span></p>
         
         
         <div class="listing-categories mb-2">
           
-            <a class="category-link badge bg-light text-dark border me-1" href="#category=Statistics">
-              Statistics
+            <a class="category-link badge bg-light text-dark border me-1" href="#category=statistics">
+              statistics
             </a>
           
             <a class="category-link badge bg-light text-dark border me-1" href="#category=outliers">
@@ -558,8 +543,227 @@ window.Quarto = {
       </div>
     </div>
   
+    <div class="card h-100" data-index="9" data-categories="c3RhdGlzdGljcyUyQ3JlcHJvZHVjaWJpbGl0eSUyMGNyaXNpcw=="> 
+      
+      <a href="">
+        <img loading="lazy" src="teaching/images/0.png" class="card-img-top" alt="">
+      </a>
+      
+      <div class="card-body post-contents d-flex flex-column">
+        <a href="" class="title-link">
+          <h5 class="card-title listing-title no-anchor">Current issues in statistical inference for Psychology</h5>
+        </a>
+        
+        <p class="card-text listing-description">Key challenges in psychological research statistics, statistical significance issues, replicability and reproducibility crises, and new strategies to enhance research quality <span class="fi fi-gb"></span></p>
+        
+        
+        <div class="listing-categories mb-2">
+          
+            <a class="category-link badge bg-light text-dark border me-1" href="#category=statistics">
+              statistics
+            </a>
+          
+            <a class="category-link badge bg-light text-dark border me-1" href="#category=reproducibility crisis">
+              reproducibility crisis
+            </a>
+          
+        </div>
+        
+        <div class="mt-auto">
+          <div class="listing-author text-muted small">
+            MASSIMILIANO PASTORE
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="card h-100" data-index="10" data-categories="c3RhdGlzdGljcyUyQ2JheWVzaWFuJTJDUiUyQ1N0YW4="> 
+      
+      <a href="">
+        <img loading="lazy" src="teaching/images/0.png" class="card-img-top" alt="">
+      </a>
+      
+      <div class="card-body post-contents d-flex flex-column">
+        <a href="" class="title-link">
+          <h5 class="card-title listing-title no-anchor">Bayesian Data Analysis in Psychological Research</h5>
+        </a>
+        
+        <p class="card-text listing-description">Introduces the Bayesian approach, covering probability basics, binomial and normal models. Includes practical training in STAN with R applications. <span class="fi fi-gb"></span></p>
+        
+        
+        <div class="listing-categories mb-2">
+          
+            <a class="category-link badge bg-light text-dark border me-1" href="#category=statistics">
+              statistics
+            </a>
+          
+            <a class="category-link badge bg-light text-dark border me-1" href="#category=bayesian">
+              bayesian
+            </a>
+          
+            <a class="category-link badge bg-light text-dark border me-1" href="#category=R">
+              R
+            </a>
+          
+            <a class="category-link badge bg-light text-dark border me-1" href="#category=Stan">
+              Stan
+            </a>
+          
+        </div>
+        
+        <div class="mt-auto">
+          <div class="listing-author text-muted small">
+            MASSIMILIANO PASTORE
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="card h-100" data-index="11" data-categories="c3RhdGlzdGljcyUyQ1IlMkNNb250ZSUyMENhcmxvJTJDc2ltdWxhdGlvbg=="> 
+      
+      <a href="">
+        <img loading="lazy" src="teaching/images/0.png" class="card-img-top" alt="">
+      </a>
+      
+      <div class="card-body post-contents d-flex flex-column">
+        <a href="" class="title-link">
+          <h5 class="card-title listing-title no-anchor">Data Simulation in Psychological Studies</h5>
+        </a>
+        
+        <p class="card-text listing-description">Data simulation for understanding and evaluating data analysis models. Extends Power and Design Analysis concepts, with simulations for linear, logistic, and reaction time models in R <span class="fi fi-gb"></span></p>
+        
+        
+        <div class="listing-categories mb-2">
+          
+            <a class="category-link badge bg-light text-dark border me-1" href="#category=statistics">
+              statistics
+            </a>
+          
+            <a class="category-link badge bg-light text-dark border me-1" href="#category=R">
+              R
+            </a>
+          
+            <a class="category-link badge bg-light text-dark border me-1" href="#category=Monte Carlo">
+              Monte Carlo
+            </a>
+          
+            <a class="category-link badge bg-light text-dark border me-1" href="#category=simulation">
+              simulation
+            </a>
+          
+        </div>
+        
+        <div class="mt-auto">
+          <div class="listing-author text-muted small">
+            MASSIMILIANO PASTORE
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="card h-100" data-index="12" data-categories="c2hpbnk="> 
+      
+      <a href="https://psicostat.github.io/shine-bright/">
+        <img loading="lazy" src="teaching/images/0.png" class="card-img-top" alt="">
+      </a>
+      
+      <div class="card-body post-contents d-flex flex-column">
+        <a href="https://psicostat.github.io/shine-bright/" class="title-link">
+          <h5 class="card-title listing-title no-anchor">Shine bright like an open-source app: Piccola introduzione a Shiny</h5>
+        </a>
+        
+        <p class="card-text listing-description">NA <span class="fi fi-it"></span></p>
+        
+        
+        <div class="listing-categories mb-2">
+          
+            <a class="category-link badge bg-light text-dark border me-1" href="#category=shiny">
+              shiny
+            </a>
+          
+        </div>
+        
+        <div class="mt-auto">
+          <div class="listing-author text-muted small">
+            OTTAVIA EPIFANIA
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="card h-100" data-index="13" data-categories="UiUyQ3NoaW55"> 
+      
+      <a href="https://ottaviae.github.io/RcouRse/">
+        <img loading="lazy" src="teaching/images/0.png" class="card-img-top" alt="">
+      </a>
+      
+      <div class="card-body post-contents d-flex flex-column">
+        <a href="https://ottaviae.github.io/RcouRse/" class="title-link">
+          <h5 class="card-title listing-title no-anchor">Introduction to R and shiny</h5>
+        </a>
+        
+        <p class="card-text listing-description">This is a basic course on R and Shiny for the Qhelp seminar <span class="fi fi-gb"></span></p>
+        
+        
+        <div class="listing-categories mb-2">
+          
+            <a class="category-link badge bg-light text-dark border me-1" href="#category=R">
+              R
+            </a>
+          
+            <a class="category-link badge bg-light text-dark border me-1" href="#category=shiny">
+              shiny
+            </a>
+          
+        </div>
+        
+        <div class="mt-auto">
+          <div class="listing-author text-muted small">
+            OTTAVIA EPIFANIA
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="card h-100" data-index="14" data-categories="UiUyQ21hcmtkb3du"> 
+      
+      <a href="https://ambraperugini.github.io/Quarto_ARCA/">
+        <img loading="lazy" src="teaching/images/0.png" class="card-img-top" alt="">
+      </a>
+      
+      <div class="card-body post-contents d-flex flex-column">
+        <a href="https://ambraperugini.github.io/Quarto_ARCA/" class="title-link">
+          <h5 class="card-title listing-title no-anchor">RMarkdown. Analisi riproducibili, presentazioni, report</h5>
+        </a>
+        
+        <p class="card-text listing-description">Competenze base di RMarkdown (e Quarto), creare documenti PDF, HTML e presentazioni dal codice <span class="fi fi-it"></span></p>
+        
+        
+        <div class="listing-categories mb-2">
+          
+            <a class="category-link badge bg-light text-dark border me-1" href="#category=R">
+              R
+            </a>
+          
+            <a class="category-link badge bg-light text-dark border me-1" href="#category=markdown">
+              markdown
+            </a>
+          
+        </div>
+        
+        <div class="mt-auto">
+          <div class="listing-author text-muted small">
+            AMBRA PERUGINI
+          </div>
+        </div>
+      </div>
+    </div>
+  
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
