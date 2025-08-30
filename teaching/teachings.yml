@@ -58,7 +58,7 @@
   author: GIANMARCO ALTOÈ
   description: Practical R-based methods to define, detect, and manage univariate and multivariate outliers and influential cases <span class="fi fi-gb"></span>
   categories: [statistics, outliers, influential cases, R]
-  image: teaching/images/0.png
+  image: teaching/images/9.png
   link: https://osf.io/e46y3/
   lang: english
 - title: "Current issues in statistical inference for Psychology"
@@ -86,20 +86,20 @@
   author: OTTAVIA EPIFANIA
   description: NA <span class="fi fi-it"></span>
   categories: [shiny]
-  image: teaching/images/0.png
+  image: teaching/images/13.jpg
   link: https://psicostat.github.io/shine-bright/
   lang: italian
 - title: "Introduction to R and shiny"
   author: OTTAVIA EPIFANIA
   description: This is a basic course on R and Shiny for the Qhelp seminar <span class="fi fi-gb"></span>
   categories: [R, shiny]
-  image: teaching/images/0.png
+  image: teaching/images/14.png
   link: https://ottaviae.github.io/RcouRse/
   lang: english
 - title: "RMarkdown. Analisi riproducibili, presentazioni, report"
   author: AMBRA PERUGINI
   description: Competenze base di RMarkdown (e Quarto), creare documenti PDF, HTML e presentazioni dal codice <span class="fi fi-it"></span>
   categories: [R, markdown]
-  image: teaching/images/0.png
+  image: teaching/images/15.png
   link: https://ambraperugini.github.io/Quarto_ARCA/
   lang: italian
