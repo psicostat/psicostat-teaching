@@ -18,6 +18,7 @@ options(gargle_oauth_email = Sys.getenv("GMAIL"), googledrive_quiet = TRUE)
 # data -------------------------------------------------------------------
 
 teaching <- drive_dowload_read(info$teaching)
+teaching <- teaching[teaching$includi==1,]
 
 teaching$Docente = toupper(teaching$Docente)
 

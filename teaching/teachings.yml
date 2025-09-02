@@ -1,7 +1,7 @@
 - title: "An introduction to Item Response Theory Models with R"
   author: OTTAVIA EPIFANIA
   description: The aim of the course is to give an overview on IRT models, with a focus on IRT models for dichotomous responses <span class="fi fi-gb"></span>
-  categories: [IRT]
+  categories: [IRT, psychometrics]
   image: teaching/images/1.png
   link: https://ottaviae.github.io/IRTintro/
   lang: english
@@ -15,7 +15,7 @@
 - title: "Generalized Linear Models"
   author: FILIPPO GAMBAROTA
   description: PhD-level Generalized Linear Models course, R-package materials, labs, slides for applied statistical modeling <span class="fi fi-gb"></span>
-  categories: [R, GLM, modeling]
+  categories: [R, GLM, modeling, statistics]
   image: teaching/images/3.png
   link: https://stat-teaching.github.io/GLMphd/
   lang: english
@@ -64,7 +64,7 @@
 - title: "Current issues in statistical inference for Psychology"
   author: MASSIMILIANO PASTORE
   description: Key challenges in psychological research statistics, statistical significance issues, replicability and reproducibility crises, and new strategies to enhance research quality <span class="fi fi-gb"></span>
-  categories: [statistics, reproducibility crisis]
+  categories: [statistics, replicability crisis]
   image: teaching/images/0.png
   link: 
   lang: english
@@ -84,7 +84,7 @@
   lang: english
 - title: "Shine bright like an open-source app: Piccola introduzione a Shiny"
   author: OTTAVIA EPIFANIA
-  description: NA <span class="fi fi-it"></span>
+  description: Corso introduttivo a shiny <span class="fi fi-it"></span>
   categories: [shiny]
   image: teaching/images/13.jpg
   link: https://psicostat.github.io/shine-bright/
@@ -103,3 +103,10 @@
   image: teaching/images/15.png
   link: https://ambraperugini.github.io/Quarto_ARCA/
   lang: italian
+- title: "Basics of Power and Design Analysis"
+  author: GIANMARCO ALTOÈ
+  description: Power and design analysis with R to plan sample sizes and enhance research replicability <span class="fi fi-gb"></span>
+  categories: [power analysis, design analysis, R]
+  image: teaching/images/16.jpg
+  link: https://osf.io/385xe/
+  lang: english
