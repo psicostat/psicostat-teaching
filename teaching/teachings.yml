@@ -110,3 +110,17 @@
   image: teaching/images/16.jpg
   link: https://osf.io/385xe/
   lang: english
+- title: "Multiverse approches in multilab contexts"
+  author: GIULIA CALIGNANO
+  description: An introductory workshop on applying multiverse analysis to multilab research and its implementation in the MB2P project <span class="fi fi-gb"></span>
+  categories: [data processing, phylosophy of science, R, statistics]
+  image: teaching/images/17.png
+  link: https://caligiu.github.io/MultiverseWorkshopMB/
+  lang: english
+- title: "Cognitive Pupillometry with OpenSesame and R"
+  author: GIULIA CALIGNANO
+  description: A course on using cognitive pupillometry to design experiments and analyze pupil data across the lifespan, with OpenSesame and R <span class="fi fi-gb"></span>
+  categories: [experiment design, measurment, data processing, data analysis]
+  image: teaching/images/18.png
+  link: https://caligiu.github.io/Pupillometry_ARCA2025/
+  lang: english
