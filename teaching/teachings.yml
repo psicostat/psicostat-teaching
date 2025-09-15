@@ -65,21 +65,21 @@
   author: MASSIMILIANO PASTORE
   description: Key challenges in psychological research statistics, statistical significance issues, replicability and reproducibility crises, and new strategies to enhance research quality <span class="fi fi-gb"></span>
   categories: [statistics, replicability crisis]
-  image: teaching/images/0.png
+  image: teaching/images/10.png
   link: 
   lang: english
 - title: "Bayesian Data Analysis in Psychological Research"
   author: MASSIMILIANO PASTORE
   description: Introduces the Bayesian approach, covering probability basics, binomial and normal models. Includes practical training in STAN with R applications. <span class="fi fi-gb"></span>
   categories: [statistics, bayesian, R, Stan]
-  image: teaching/images/0.png
+  image: teaching/images/11.png
   link: 
   lang: english
 - title: "Data Simulation in Psychological Studies"
   author: MASSIMILIANO PASTORE
   description: Data simulation for understanding and evaluating data analysis models. Extends Power and Design Analysis concepts, with simulations for linear, logistic, and reaction time models in R <span class="fi fi-gb"></span>
   categories: [statistics, R, Monte Carlo, simulation]
-  image: teaching/images/0.png
+  image: teaching/images/12.png
   link: 
   lang: english
 - title: "Shine bright like an open-source app: Piccola introduzione a Shiny"
