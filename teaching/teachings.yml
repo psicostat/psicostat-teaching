@@ -124,3 +124,10 @@
   image: teaching/images/18.png
   link: https://caligiu.github.io/Pupillometry_ARCA2025/
   lang: english
+- title: "Introduction to GLM (workshop)"
+  author: MARGHERITA CALDERAN, FILIPPO GAMBAROTA
+  description: Introductory workshop about Generalized Linear Models (logistic regression) <span class="fi fi-gb"></span>
+  categories: [R, GLM, modeling, statistics]
+  image: teaching/images/19.svg
+  link: https://psicostat.github.io/glm-workshop/
+  lang: english
