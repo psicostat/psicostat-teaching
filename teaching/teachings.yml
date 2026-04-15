@@ -24,7 +24,7 @@
   description: PhD-level Structural Equation Modeling, theory, estimation, and applied modeling with observed and latent variables <span class="fi fi-gb"></span>
   categories: [R, SEM, psychometrics, modeling]
   image: teaching/images/4.png
-  link: 
+  link: https://feracotommaso.github.io/SEM-phd-course/
   lang: english
 - title: "Basics of R for Data Science"
   author: ENRICO TOFFALINI
